@@ -1,0 +1,32 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "75983Sourabh",
+      "name": "Sourabh Lowanshi",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20843596?s=460&u=7f184b911f73ae1dc5765ab686fff2b2e984830f&v=4",
+      "profile": "http://github.com/75983Sourabh",
+      "contributions": [
+        "code",
+        "doc",
+        "design",
+        "maintenance",
+        "ideas"
+      ]
+    }
+   
+  
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "portfolio",
+  "projectOwner": "75983Sourabh",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "commitConvention": "React",
+  "commitType": "docs"
+}
