@@ -2,7 +2,18 @@
   "private": true,
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": ".",
+  "description": "Here My Portfolio of mine",
+  "license": "ISC",
+  "author": "Sourabh Lowanshi",
+  "homepage": "http://.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/75983Sourabh/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/75983Sourabh/portfolio/issues"
+  },
+  "main": "index.js",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
