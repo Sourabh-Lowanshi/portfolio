@@ -1,9 +1,14 @@
-import React from 'react';
+import React from "react";
 
 class LogoLoader extends React.Component {
   render() {
     return (
-      <svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+      <svg
+        width="800"
+        height="300"
+        viewBox="0 0 800 300"
+        xmlns="http://www.w3.org/2000/svg"
+      >
         <defs>
           <style>
             {`
@@ -44,16 +49,20 @@ class LogoLoader extends React.Component {
         </defs>
 
         {/* Hexagonal Shape */}
-        <polygon 
+        <polygon
           className="hexagon"
           points="400,50 500,100 500,200 400,250 300,200 300,100"
         />
 
         {/* Initials "S" and "L" */}
-        <text x="400" y="150" className="initials">S L</text>
+        <text x="400" y="150" className="initials">
+          S L
+        </text>
 
         {/* Full Name "Sourabh Lowanshi" */}
-        <text x="400" y="280" className="fullName">Sourabh Lowanshi</text>
+        <text x="400" y="280" className="fullName">
+          Sourabh Lowanshi
+        </text>
       </svg>
     );
   }
