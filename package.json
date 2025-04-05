@@ -1,11 +1,11 @@
 {
   "private": true,
-  "name": "portfolio",
+  "name": "Sourabh Bharlay",
   "version": "0.1.0",
-  "description": "Here My Portfolio of mine",
+  "description": "Sourabh Lowanshi's web development portfolio showcasing React projects, skills, and professional achievements.",
   "license": "ISC",
   "author": "Sourabh Lowanshi",
-  "homepage": "http://.",
+  "homepage": "https://sourabhportfoliobharlay.vercel.app",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/75983Sourabh/portfolio.git"
