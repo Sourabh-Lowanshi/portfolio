@@ -22,6 +22,22 @@ class Home extends Component {
           <meta name="twitter:title" content="Sourabh Lowanshi - Developer Portfolio" />
           <meta name="twitter:description" content="Explore Sourabh Lowanshi's portfolio for web development projects, skills, and professional experience." />
           <meta name="twitter:image" content="URL-to-your-image.jpg" />
+      <script type="application/ld+json">
+    {`
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Sourabh Lowanshi",
+        "jobTitle": "Web Developer",
+        "url": "https://your-portfolio-url.com",
+        "sameAs": [
+          "https://www.linkedin.com/in/sourabh1844",
+          "https://github.com/75983Sourabh",
+          "https://www.instagram.com/sourabh1844_bharlay/"
+        ]
+      }
+    `}
+  </script>
         </Helmet>
         <Header theme={this.props.theme} />
         <Greeting theme={this.props.theme} />
