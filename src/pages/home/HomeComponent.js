@@ -25,11 +25,11 @@ class Home extends Component {
       <script type="application/ld+json">
     {`
       {
-        "@context": "https://schema.org",
+        "@context": "https://sourabhportfoliobharlay.vercel.app/",
         "@type": "Person",
         "name": "Sourabh Lowanshi",
         "jobTitle": "Web Developer",
-        "url": "https://your-portfolio-url.com",
+        "url": "https://sourabhportfoliobharlay.vercel.app/",
         "sameAs": [
           "https://www.linkedin.com/in/sourabh1844",
           "https://github.com/75983Sourabh",
