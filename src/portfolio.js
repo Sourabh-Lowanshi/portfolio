@@ -27,8 +27,8 @@ const greeting = {
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/file/d/1BI621hUb_LjAZw2GLSllMeapOVfjIj3K/view?usp=drive_link",
-  portfolio_repository: "https://github.com/75983Sourabh/portfolio",
-  githubProfile: "https://github.com/75983Sourabh",
+  portfolio_repository: "https://github.com/Sourabh-Lowanshi/portfolio",
+  githubProfile: "https://github.com/Sourabh-Lowanshi",
 };
 
 const socialMediaLinks = [
@@ -43,7 +43,7 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/75983Sourabh",
+    link: "https://github.com/Sourabh-Lowanshi",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
