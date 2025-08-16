@@ -6,10 +6,10 @@
   "commit": false,
   "contributors": [
     {
-      "login": "75983Sourabh",
+      "login": "Sourabh-Lowanshi",
       "name": "Sourabh Lowanshi",
       "avatar_url": "https://avatars3.githubusercontent.com/u/20843596?s=460&u=7f184b911f73ae1dc5765ab686fff2b2e984830f&v=4",
-      "profile": "http://github.com/75983Sourabh",
+      "profile": "http://github.com/Sourabh-Lowanshi",
       "contributions": [
         "code",
         "doc",
@@ -23,7 +23,7 @@
   ],
   "contributorsPerLine": 7,
   "projectName": "portfolio",
-  "projectOwner": "75983Sourabh",
+  "projectOwner": "Sourabh-Lowanshi",
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true,
