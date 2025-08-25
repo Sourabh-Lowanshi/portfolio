@@ -28,7 +28,7 @@ class Home extends Component {
             property="og:description"
             content="Explore Sourabh Lowanshi's portfolio for web development projects, skills, and professional experience."
           />
-          <meta property="og:image" content="URL-to-your-image.jpg" />
+          <meta property="og:image" content="animated_sourabh.png" />
           <meta
             property="og:url"
             content="https://sourabhportfoliobharlay.vercel.app"
