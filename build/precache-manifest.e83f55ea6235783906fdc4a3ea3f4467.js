@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    revision: "b463f6b2818b09fcc163400326558adb",
+    revision: "571684a9580f4829a1eaf8d097c3faa2",
     url: "/index.html",
   },
   {
-    revision: "4c4c249988511e50b94c",
-    url: "/static/css/main.66cc050a.chunk.css",
+    revision: "e465cd866c949db50d6d",
+    url: "/static/css/main.75808445.chunk.css",
   },
   {
-    revision: "23981c1356e7df362239",
-    url: "/static/js/2.669a9116.chunk.js",
+    revision: "d8cbca98b9577458e3ea",
+    url: "/static/js/2.96c3254e.chunk.js",
   },
   {
-    revision: "4c4c249988511e50b94c",
-    url: "/static/js/main.16a33c1f.chunk.js",
+    revision: "e465cd866c949db50d6d",
+    url: "/static/js/main.ae19ee9a.chunk.js",
   },
   {
-    revision: "b449bc4e6a1ee18b7675",
-    url: "/static/js/runtime-main.d0908954.js",
+    revision: "79f0699b68773727a104",
+    url: "/static/js/runtime-main.1b87c039.js",
   },
   {
     revision: "21f233e19402cc4a66866a7f31191f0d",
@@ -61,11 +61,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     revision: "214ad15a3792ff4a6448207439680d89",
-    url: "/static/media/animated_sourabh.214ad15a.png",
+    url: "/static/media/animated_ashutosh1.214ad15a.png",
   },
   {
     revision: "dcd6dee2bd7458a4a576dc131506fd83",
     url: "/static/media/animated_logo.dcd6dee2.svg",
+  },
+  {
+    revision: "c4a873522c99e3b35a929ad81a838407",
+    url: "/static/media/animated_sourabh.c4a87352.png",
   },
   {
     revision: "058eca4cbdc03a1dad9a6bb943ac7831",
