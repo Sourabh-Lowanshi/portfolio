@@ -7,14 +7,17 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Sourabh's Portfolio",
+  title: "Sourabh Lowanshi | Full Stack Dotnet Developer & Software Engineer",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Official portfolio of Sourabh Lowanshi. A Full Stack Dotnet Developer specializing in React, Node.js, and Cloud Architecture. Explore projects and experience in scalable software systems.",
   og: {
-    title: "Sourabh Lowanshi Portfolio",
+    title: "Sourabh Lowanshi - Portfolio & Software Engineer",
     type: "website",
-    url: "http://sourabhlowanshi.com/",
+    url: "https://sourabhportfoliobharlay.vercel.app/",
+    image: "https://sourabhlowanshi.com/animated_sourabh.png",
   },
+  keywords:
+    "Sourabh Lowanshi, Sourabh Lowanshi Portfolio, Dotnet Developer Indore, Software Engineer Madhya Pradesh, Full Stack Developer",
 };
 
 //Home Page
@@ -24,7 +27,7 @@ const greeting = {
   nickname: "Full Stack Developer",
 
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "I am Sourabh Lowanshi, a Full Stack Dotnet Developer dedicated to building scalable social and technical systems. Currently focused on LLM fine-tuning and robust backend architectures.",
   resumeLink:
     "https://drive.google.com/file/d/1BI621hUb_LjAZw2GLSllMeapOVfjIj3K/view?usp=drive_link",
   portfolio_repository: "https://github.com/Sourabh-Lowanshi/portfolio",

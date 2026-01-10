@@ -1,125 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <!-- <link rel="icon" href="%PUBLIC_URL%/favicon1.ico" /> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="Sourabh's Portfolio"
-      content="Portfolio content"
-    />
-   <meta name="google-site-verification" content="xNZxNXBa_xRsCpcFnNWX_ITDLxc7F-1Zdp6Esiwr28c" />
-    <meta property="og:title" content="Sourabh Lowanshi Portfolio" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://Sourabh-Lowanshi.github.io/" />
-    <meta name="description" content="Sourabh's Personal Portfolio Website" property="og:description">
-    <meta name="description" content="/icons/desc.png" property="og:image">
-    <meta name="keywords" content="Sourabh, PortFolio,Sourabh's Portfolio , Sourabh's Portfolio" />
-    <meta name="author" content="Sourabh" />
-    <meta name="application-name" content="Sourabh's PortFolio" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="apple-touch-icon" sizes="57x57" href="/icons/desc.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/icons/desc.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/icons/desc.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/icons/desc.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/icons/desc.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/icons/desc.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/icons/desc.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/icons/desc.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/icons/desc.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/icons//desc.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/desc.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/icons/desc.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/icons/desc.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/icons/desc.png">
-    <meta name="theme-color" content="#000000">
+  <!-- ✅ SEO TITLE -->
+  <title>Sourabh Lowanshi | .NET Engineer & Full Stack Developer</title>
 
-    <!--Adsense Advertisement-->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-8856447829714090",
-        enable_page_level_ads: true
-      });
-    </script>
+  <!-- ✅ SEO DESCRIPTION -->
+  <meta
+    name="description"
+    content="Sourabh Lowanshi is a .NET Engineer and Full Stack Developer specializing in ASP.NET Core, C#, SQL Server, Web APIs, and modern web technologies."
+  />
 
-    <!-- Global site tag (gtag.js) - Google Ads: 825508380 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-825508380"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-825508380'); </script>
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158726526-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
+  <!-- ✅ Keywords -->
+  <meta
+    name="keywords"
+    content="Sourabh Lowanshi, Sourabh Lowanshi .NET Engineer, .NET Developer Sourabh, ASP.NET Developer"
+  />
 
-      gtag('config', 'UA-158726526-1');
-    </script>
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <meta name="author" content="Sourabh Lowanshi" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
-    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
-    
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+  <!-- ✅ CANONICAL (VERY IMPORTANT) -->
+  <link rel="canonical" href="https://sourabhportfoliobharlay.vercel.app/" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Sourabh's Portfolio</title>
-    <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      // This script checks to see if a redirect is present in the query string,
-      // converts it back into the correct url and adds it to the
-      // browser's history using window.history.replaceState(...),
-      // which won't cause the browser to attempt to load the new url.
-      // When the single page app is loaded further down in this file,
-      // the correct url will be waiting in the browser's history for
-      // the single page app to route accordingly.
-      (function (l) {
-        if (l.search[1] === "/") {
-          var decoded = l.search
-            .slice(1)
-            .split("&")
-            .map(function (s) {
-              return s.replace(/~and~/g, "&");
-            })
-            .join("?");
-          window.history.replaceState(
-            null,
-            null,
-            l.pathname.slice(0, -1) + decoded + l.hash
-          );
-        }
-      })(window.location);
-    </script>
-  </head>
+  <!-- ✅ Google Verification -->
+  <meta
+    name="google-site-verification"
+    content="xNZxNXBa_xRsCpcFnNWX_ITDLxc7F-1Zdp6Esiwr28c"
+  />
+
+  <!-- ✅ Open Graph -->
+  <meta property="og:title" content="Sourabh Lowanshi | .NET Engineer" />
+  <meta
+    property="og:description"
+    content="Official portfolio of Sourabh Lowanshi, .NET Engineer & Full Stack Developer."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sourabhportfoliobharlay.vercel.app/" />
+  <meta
+    property="og:image"
+    content="https://sourabhportfoliobharlay.vercel.app/icons/desc.png"
+  />
+
+  <!-- ✅ Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Sourabh Lowanshi | .NET Engineer" />
+  <meta
+    name="twitter:description"
+    content="Portfolio website of Sourabh Lowanshi, .NET Engineer."
+  />
+
+  <!-- ✅ Favicon -->
+  <link rel="icon" href="/icons/desc.png" />
+
+  <!-- ✅ PERSON SCHEMA -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sourabh Lowanshi",
+    "jobTitle": ".NET Engineer",
+    "url": "https://sourabhportfoliobharlay.vercel.app/",
+    "sameAs": [
+      "https://github.com/Sourabh-Lowanshi",
+      "https://www.linkedin.com/in/sourabhlowanshi"
+    ],
+    "knowsAbout": [
+      "ASP.NET Core",
+      "C#",
+      ".NET",
+      "SQL Server",
+      "Web API",
+      "Entity Framework"
+    ]
+  }
+  </script>
+</head>
+
+
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
